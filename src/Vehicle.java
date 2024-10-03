@@ -57,6 +57,7 @@ public class Vehicle {
                 "make='" + make + '\'' +
                 ", model='" + model + '\'' +
                 ", year=" + year +
+                ", color='" + color + '\'' +
                 '}';
     }
 }

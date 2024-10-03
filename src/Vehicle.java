@@ -8,6 +8,10 @@ public class Vehicle {
     private int year;
     private String color;
 
+    // Small Change
+
+    
+
 
     public Vehicle(String make, String model, int year, String color) {
         this.make = make;

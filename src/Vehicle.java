@@ -1,6 +1,8 @@
 public class Vehicle {
     // POJO Plain Ol Java Object
 
+    // Comment
+
     private String make;
     private String model;
     private int year;

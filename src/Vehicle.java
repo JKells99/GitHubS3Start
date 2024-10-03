@@ -4,11 +4,22 @@ public class Vehicle {
     private String make;
     private String model;
     private int year;
+    private String color;
 
-    public Vehicle(String make, String model, int year) {
+
+    public Vehicle(String make, String model, int year, String color) {
         this.make = make;
         this.model = model;
         this.year = year;
+        this.color = color;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 
     public String getMake() {
